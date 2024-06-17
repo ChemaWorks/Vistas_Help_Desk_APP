@@ -20,6 +20,15 @@
 		D1809FBA2C1E9E4B00BC3B50 /* RegisterTecnicoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1809FB92C1E9E4B00BC3B50 /* RegisterTecnicoController.swift */; };
 		D1809FBC2C1EB27500BC3B50 /* DrawerUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1809FBB2C1EB27500BC3B50 /* DrawerUserController.swift */; };
 		D1809FBE2C1EBA0500BC3B50 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1809FBD2C1EBA0500BC3B50 /* ProfileController.swift */; };
+		D1F9CBB02C1F709900F7EF78 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBAF2C1F709900F7EF78 /* Ticket.swift */; };
+		D1F9CBB22C1F70CA00F7EF78 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBB12C1F70CA00F7EF78 /* LoginResponse.swift */; };
+		D1F9CBB42C1F734500F7EF78 /* DashboardAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBB32C1F734500F7EF78 /* DashboardAlumnoController.swift */; };
+		D1F9CBB62C1F736C00F7EF78 /* DashboardTecnicoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBB52C1F736C00F7EF78 /* DashboardTecnicoController.swift */; };
+		D1F9CBB92C1F738B00F7EF78 /* DashboardAdminController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBB82C1F738B00F7EF78 /* DashboardAdminController.swift */; };
+		D1F9CBBD2C1F7A2C00F7EF78 /* RegisterTicketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBBC2C1F7A2B00F7EF78 /* RegisterTicketController.swift */; };
+		D1F9CBC72C1FB65E00F7EF78 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBC62C1FB65E00F7EF78 /* TicketTableViewCell.swift */; };
+		D1F9CBC92C1FCEAF00F7EF78 /* TicketTableAdminViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBC82C1FCEAF00F7EF78 /* TicketTableAdminViewCell.swift */; };
+		D1F9CBCB2C1FDFBE00F7EF78 /* TicketTableTecnicoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9CBCA2C1FDFBE00F7EF78 /* TicketTableTecnicoViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +47,15 @@
 		D1809FB92C1E9E4B00BC3B50 /* RegisterTecnicoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTecnicoController.swift; sourceTree = "<group>"; };
 		D1809FBB2C1EB27500BC3B50 /* DrawerUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerUserController.swift; sourceTree = "<group>"; };
 		D1809FBD2C1EBA0500BC3B50 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		D1F9CBAF2C1F709900F7EF78 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		D1F9CBB12C1F70CA00F7EF78 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		D1F9CBB32C1F734500F7EF78 /* DashboardAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardAlumnoController.swift; sourceTree = "<group>"; };
+		D1F9CBB52C1F736C00F7EF78 /* DashboardTecnicoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTecnicoController.swift; sourceTree = "<group>"; };
+		D1F9CBB82C1F738B00F7EF78 /* DashboardAdminController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardAdminController.swift; sourceTree = "<group>"; };
+		D1F9CBBC2C1F7A2B00F7EF78 /* RegisterTicketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTicketController.swift; sourceTree = "<group>"; };
+		D1F9CBC62C1FB65E00F7EF78 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		D1F9CBC82C1FCEAF00F7EF78 /* TicketTableAdminViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableAdminViewCell.swift; sourceTree = "<group>"; };
+		D1F9CBCA2C1FDFBE00F7EF78 /* TicketTableTecnicoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableTecnicoViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				D1809FB52C1E746E00BC3B50 /* Usuario.swift */,
+				D1F9CBAF2C1F709900F7EF78 /* Ticket.swift */,
+				D1F9CBB12C1F70CA00F7EF78 /* LoginResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,6 +120,13 @@
 				D1809FB92C1E9E4B00BC3B50 /* RegisterTecnicoController.swift */,
 				D1809FBB2C1EB27500BC3B50 /* DrawerUserController.swift */,
 				D1809FBD2C1EBA0500BC3B50 /* ProfileController.swift */,
+				D1F9CBB32C1F734500F7EF78 /* DashboardAlumnoController.swift */,
+				D1F9CBB52C1F736C00F7EF78 /* DashboardTecnicoController.swift */,
+				D1F9CBB82C1F738B00F7EF78 /* DashboardAdminController.swift */,
+				D1F9CBBC2C1F7A2B00F7EF78 /* RegisterTicketController.swift */,
+				D1F9CBC62C1FB65E00F7EF78 /* TicketTableViewCell.swift */,
+				D1F9CBC82C1FCEAF00F7EF78 /* TicketTableAdminViewCell.swift */,
+				D1F9CBCA2C1FDFBE00F7EF78 /* TicketTableTecnicoViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -175,13 +202,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F9CBB02C1F709900F7EF78 /* Ticket.swift in Sources */,
+				D1F9CBB92C1F738B00F7EF78 /* DashboardAdminController.swift in Sources */,
 				D1809FBA2C1E9E4B00BC3B50 /* RegisterTecnicoController.swift in Sources */,
+				D1F9CBB22C1F70CA00F7EF78 /* LoginResponse.swift in Sources */,
 				99DF71FD2C07E7DF00B9DCE1 /* ViewController.swift in Sources */,
 				99DF71F92C07E7DF00B9DCE1 /* AppDelegate.swift in Sources */,
+				D1F9CBBD2C1F7A2C00F7EF78 /* RegisterTicketController.swift in Sources */,
 				D1809FB62C1E746E00BC3B50 /* Usuario.swift in Sources */,
+				D1F9CBB62C1F736C00F7EF78 /* DashboardTecnicoController.swift in Sources */,
+				D1F9CBC72C1FB65E00F7EF78 /* TicketTableViewCell.swift in Sources */,
 				D1809FB02C1E660B00BC3B50 /* APIConfig.swift in Sources */,
+				D1F9CBC92C1FCEAF00F7EF78 /* TicketTableAdminViewCell.swift in Sources */,
 				D1809FBE2C1EBA0500BC3B50 /* ProfileController.swift in Sources */,
 				D1809FBC2C1EB27500BC3B50 /* DrawerUserController.swift in Sources */,
+				D1F9CBB42C1F734500F7EF78 /* DashboardAlumnoController.swift in Sources */,
+				D1F9CBCB2C1FDFBE00F7EF78 /* TicketTableTecnicoViewCell.swift in Sources */,
 				D1809FB22C1E67F000BC3B50 /* AdminViewController.swift in Sources */,
 				D1809FB42C1E725100BC3B50 /* RegisterStudentController.swift in Sources */,
 				99DF71FB2C07E7DF00B9DCE1 /* SceneDelegate.swift in Sources */,

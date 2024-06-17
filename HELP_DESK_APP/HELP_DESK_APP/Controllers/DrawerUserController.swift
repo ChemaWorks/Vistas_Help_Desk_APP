@@ -28,8 +28,22 @@ class DrawerUserController: UIViewController {
         self.performSegue(withIdentifier: "Logout", sender: self)
     }
     
-    
     @IBAction func irPerfil(_ sender: Any) {
         self.performSegue(withIdentifier: "UserData", sender: self)
+    }
+    
+    @IBAction func misTickets(_ sender: Any) {
+        if let tipoUsuario = UserDefaults.standard.string(forKey: "tipoUsuario") {
+            if tipoUsuario == "Técnico" {
+                self.performSegue(withIdentifier: "TicketTecnicoView", sender: self)
+            }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Aquí puedes pasar datos adicionales al controlador de destino si es necesario
+        if segue.identifier == "TecnicoDashboard" {
+            // Preparar el destino si es necesario
+        }
     }
 }
